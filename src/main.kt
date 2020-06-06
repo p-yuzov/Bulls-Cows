@@ -1,3 +1,5 @@
+import Core
 fun main(){
-    println("Hello world")
+    val core = Core()
+    println(core.getNumber().toString())
 }
